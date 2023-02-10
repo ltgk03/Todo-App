@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #93C6E7;
+    
+}
+
+header {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #7286D3;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 10px;
+}
+input {
+    width: 80%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #332C39;
+    background: #6096B4;
+}
+
+label {
+    width: 100%;
+}
+
+.add-btn {
+    width: 15%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #332C39;
+    background: #6096B4;
+    float: right;
+}
+
+._task {
+    width: 100%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #332C39;
+    background: #6096B4;
+    cursor: pointer;
+    margin: 2% 0;
+}
+
+._task:hover {
+    background: #AEE2FF;
+}
+
+._checkbox {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#tasks-list {
+    margin-top: 2% auto;
+    color: #332C39;
+    font-size: 2rem;
+}
